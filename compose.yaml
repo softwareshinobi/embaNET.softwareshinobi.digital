@@ -1,0 +1,23 @@
+services:
+
+    software-shinobi-embanet-docs:
+
+        container_name: software-shinobi-embanet-docs
+
+        image: softwareshinobi/software-shinobi-embanet-docs
+
+        build: 
+
+            context: .
+
+            dockerfile: Dockerfile
+
+        ports:
+
+            - 8000:80
+
+        environment:
+
+            VIRTUAL_HOST: embanet.softwareshinobi.digital
+
+            LETSENCRYPT_HOST: embanet.softwareshinobi.digital
