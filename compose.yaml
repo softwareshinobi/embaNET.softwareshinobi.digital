@@ -1,10 +1,10 @@
 services:
 
-    software-shinobi-embanet-docs:
+    revuelto.embanet.softwareshinobi.digital:
 
-        container_name: software-shinobi-embanet-docs
+        container_name: revuelto.embanet.softwareshinobi.digital
 
-        image: softwareshinobi/software-shinobi-embanet-docs
+        image: softwareshinobi/revuelto.embanet.softwareshinobi.digital
 
         build: 
 
